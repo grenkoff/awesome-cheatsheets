@@ -38,3 +38,5 @@ Exit the Vim editor: press `Esc`, type `:qa!`, press `Enter`<br>
 `git diff` # show the changes in the "workspace", i.e. in the modified files<br>
 `git diff --staged` # show the changes that are added to the **staged** files<br>
 `git diff a9928ab 11bada1` # show the difference between the two commits<br>
+
+`git clone git@github.com:%Username%/project1.git` # clone the repository with the URL `project1.git` from **%Username%** account to my local computer<br>
