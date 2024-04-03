@@ -1,7 +1,7 @@
 # Awesome Git Cheatsheet
 
-```cd projects/project1```<br>
-```git init``` # make the project1 directory a repository<br>
+`cd projects/project1`<br>
+`git init` # make the project1 directory a repository<br>
 
 `rm -rf .git` # make a repository back to the directory<br>
 `-r` # means **r**ecursive, i.e. recursively delete all files and directories<br>
