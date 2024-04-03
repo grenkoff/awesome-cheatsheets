@@ -74,3 +74,10 @@ Exit the Vim editor: press `Esc`, type `:qa!`, press `Enter`<br>
 `git checkout --Xours --Xtheirs` # resolve by selecing version<br>
 `git diff` # resolve manually<br>
 `git revert 09fe472` # undo merge<br>
+
+## Tags
+
+`git tag ver1` # mark commit with tag<br>
+`git tag -list` # view tags<br>
+`git push --tags` # push<br>
+`git checkout ver1` # check it out<br>
