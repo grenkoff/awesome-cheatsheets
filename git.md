@@ -51,13 +51,26 @@ Exit the Vim editor: press `Esc`, type `:qa!`, press `Enter`<br>
 
 ### Staging area (Index)
 
-`git reset -- file1.txt`
+`git reset -- file1.txt`<br>
 
 ### Local branch
 
-`git reset HEAD^^ (HEAD~2)`
-`git commit --amend -m "Commit message"`
+`git reset HEAD^^ (HEAD~2)`<br>
+`git commit --amend -m "Commit message"`<br>
 
 ### Remote repository
 
-git revert <sha1>
+`git revert <sha1>`<br>
+
+## Git reset
+
+`git reset --soft`<br>
+`git reset --mixed`<br>
+`git reset --hard`<br>
+
+## Conflict solving
+
+`git merge --abort` # abort merge
+`git checkout --Xours --Xtheirs` # resolve by selecing version
+`git diff` # resolve manually
+`git revert 09fe472` # undo merge
