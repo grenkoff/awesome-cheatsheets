@@ -40,3 +40,24 @@ Exit the Vim editor: press `Esc`, type `:qa!`, press `Enter`<br>
 `git diff a9928ab 11bada1` # show the difference between the two commits<br>
 
 `git clone git@github.com:%Username%/project1.git` # clone the repository with the URL `project1.git` from **%Username%** account to my local computer<br>
+
+## Undoing changes
+
+### Working directory
+
+`git checkout -- file1.txt`<br>
+`git checkout .`<br>
+`git clean -xdf`<br>
+
+### Staging area (Index)
+
+`git reset -- file1.txt`
+
+### Local branch
+
+`git reset HEAD^^ (HEAD~2)`
+`git commit --amend -m "Commit message"`
+
+### Remote repository
+
+git revert <sha1>
