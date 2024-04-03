@@ -81,3 +81,11 @@ Exit the Vim editor: press `Esc`, type `:qa!`, press `Enter`<br>
 `git tag -list` # view tags<br>
 `git push --tags` # push<br>
 `git checkout ver1` # check it out<br>
+
+## Stash
+
+`git stash save "description"` # save working directory<br>
+`git stash list` # view stashes<br>
+`git stash pop` # bring them back and remove from stash<br>
+`git stash apply` # bring them back, leave in stash<br>
+`git stash drop` # remove<br>
