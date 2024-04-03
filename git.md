@@ -70,7 +70,7 @@ Exit the Vim editor: press `Esc`, type `:qa!`, press `Enter`<br>
 
 ## Conflict solving
 
-`git merge --abort` # abort merge
-`git checkout --Xours --Xtheirs` # resolve by selecing version
-`git diff` # resolve manually
-`git revert 09fe472` # undo merge
+`git merge --abort` # abort merge<br>
+`git checkout --Xours --Xtheirs` # resolve by selecing version<br>
+`git diff` # resolve manually<br>
+`git revert 09fe472` # undo merge<br>
