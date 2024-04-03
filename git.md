@@ -89,3 +89,11 @@ Exit the Vim editor: press `Esc`, type `:qa!`, press `Enter`<br>
 `git stash pop` # bring them back and remove from stash<br>
 `git stash apply` # bring them back, leave in stash<br>
 `git stash drop` # remove<br>
+
+## Remotes
+
+`git remote add <name> <url>`<br>
+`git remote add origin git@github.com:user/repo.git` # add<br>
+
+`git remote -v`<br>
+`git remote show <name>` # view<br>
