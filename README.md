@@ -6,7 +6,7 @@
 * [Git](https://github.com/grenkoff/cheatsheets/blob/main/git.md "Git")
 * Docker
 * Python
-* SQL
+* [SQL](https://github.com/grenkoff/cheatsheets/blob/main/sql.md "SQL")
 * English
 * Methodologies
 * HTML
