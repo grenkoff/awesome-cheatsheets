@@ -1,5 +1,16 @@
 # Awesome Git Cheatsheet
 
+## Create ssh-key
+
+`cd ~`
+`ssh-keygen -t ed25519 -C "email binded with github"` or `ssh-keygen -t rsa -b 4096 -C "email binded with github"`
+Enter + Enter + Enter
+`cat ~/.ssh/id_ed25519.pub` or `cat ~/.ssh/id_rsa.pub`
+Insert to github -> settings -> SSH and GPG keys -> New SSH key
+`ssh -T git@github.com`
+
+## Other useful commands
+
 `cd projects/project1`<br>
 `git init` # make the project1 directory a repository<br>
 
