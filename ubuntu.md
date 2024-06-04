@@ -1,3 +1,5 @@
+# Awesome Ubuntu Cheatsheet
+
 `sudo apt update`
 `sudo dpkg -i path_to_.deb_file` # install deb-package
 `sudo dpkg -r program_name` # remove
