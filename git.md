@@ -2,12 +2,12 @@
 
 ## Create ssh-key
 
-`cd ~`
-`ssh-keygen -t ed25519 -C "email binded with github"` or `ssh-keygen -t rsa -b 4096 -C "email binded with github"`
-Enter + Enter + Enter
-`cat ~/.ssh/id_ed25519.pub` or `cat ~/.ssh/id_rsa.pub`
-Insert to github -> settings -> SSH and GPG keys -> New SSH key
-`ssh -T git@github.com`
+`cd ~`<br>
+`ssh-keygen -t ed25519 -C "email binded with github"` or `ssh-keygen -t rsa -b 4096 -C "email binded with github"`<br>
+Enter + Enter + Enter<br>
+`cat ~/.ssh/id_ed25519.pub` or `cat ~/.ssh/id_rsa.pub`<br>
+Insert to github -> settings -> SSH and GPG keys -> New SSH key<br>
+`ssh -T git@github.com`<br>
 
 ## Other useful commands
 
