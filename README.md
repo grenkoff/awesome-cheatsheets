@@ -6,7 +6,7 @@
 * [Ubuntu](https://github.com/grenkoff/awesome-cheatsheets/blob/main/ubuntu.md "Ubuntu")
 * [Git](https://github.com/grenkoff/awesome-cheatsheets/blob/main/git.md "Git")
 * Docker
-* Python
+* [Python](https://github.com/grenkoff/awesome-cheatsheets/blob/main/python.md "Python")
 * [SQL](https://github.com/grenkoff/awesome-cheatsheets/blob/main/sql.md "SQL")
 * English
 * Methodologies
